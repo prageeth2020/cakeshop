@@ -14,3 +14,22 @@ code {
 .backgroundTop {
   background-color: beige;
 }
+
+
+@media screen and (orientation: portrait) {
+.mobleNu {
+
+}
+.mobleNu:hover {
+      display: none;
+      background-color: #282c34;
+ }
+}
+
+/* For landscape, we want the tool bar stick on the left */
+
+@media screen and (orientation: landscape) {
+
+
+
+}
