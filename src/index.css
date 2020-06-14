@@ -14,6 +14,22 @@ code {
 .backgroundTop {
   background-color: beige;
 }
+.img1 {
+  background-image: url("./Components/Images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img2 {
+  background-image: url("./Components/Images/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1500%;
+}
+.img3 {
+  background-image: url("./Components/Images/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 @media screen and (orientation: portrait) {

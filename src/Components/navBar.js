@@ -52,17 +52,17 @@ class NavBar extends Component {
 
                             <ul className="navbar-nav my-2 my-lg-0 App1  ">
                                 <li className= {this.state.home } >
-                                    <p className="nav-link rcorners1" >Home</p>
+                                    <p className="nav-link rcorners1 mx-5" >Home</p>
 
                                 </li>
                                 <li className= {this.state.OurService } >
-                                    <p className="nav-link " >Products</p>
+                                    <p className="nav-link mx-5" >Products</p>
                                 </li>
                                 <li className= {this.state.ContactUs } >
-                                    <p className="nav-link " >Contact Us</p>
+                                    <p className="nav-link mx-5" >Contact Us</p>
                                 </li>
                                 <li className= {this.state.ContactUs } >
-                                    <p className="nav-link " >About Us</p>
+                                    <p className="nav-link mx-5" >About Us</p>
                                 </li>
                             </ul>
 
