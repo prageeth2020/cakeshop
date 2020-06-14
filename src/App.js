@@ -9,11 +9,12 @@ function App() {
   return (
     <div>
         <Top/>
-        <NavBar/>
-        <Slideshow/>
+
+
         <Router>
 
-
+            <NavBar/>
+            <Slideshow/>
             <Route exact path="/" component={Home} />
 
         </Router>

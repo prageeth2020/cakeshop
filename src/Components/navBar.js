@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 class NavBar extends Component {
     constructor() {
@@ -6,7 +7,7 @@ class NavBar extends Component {
 
 
         this.state = {
-            home : "nav-item active mx-2 ",
+            home : "nnav-item active mx-2",
             OurService : "nav-item  mx-2",
             ContactUs : "nav-item  mx-2"
 
@@ -17,7 +18,7 @@ class NavBar extends Component {
 
     Home = () => {
         this.setState({
-            home : "nav-item active mx-2",
+            home : "nnav-item active mx-2",
             OurService : "nav-item  mx-2",
             ContactUs : "nav-item  mx-2"
         })
@@ -38,10 +39,10 @@ class NavBar extends Component {
     }
     render() {
         return (
-            <div className="">
-                <nav className="navbar navbar-expand-lg navbar-light clr ">
+            <div>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container">
-                        <b className="navBar">Study Support</b>
+                        <b className=" ">Study Support</b>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -50,26 +51,25 @@ class NavBar extends Component {
 
                         <div className="collapse navbar-collapse sideSpace" id="navbarTogglerDemo01">
 
-                            <ul className="navbar-nav my-2 my-lg-0 App1  ">
-                                <li className= {this.state.home } >
-                                    <p className="nav-link rcorners1 mx-5" >Home</p>
+                            <ul className="navbar-nav mr-auto mt-2 mt-lg-0 ">
 
+                            </ul>
+                            <ul className="navbar-nav my-2 my-lg-0 ">
+                                <li className= {this.state.home } >
+                                    <Link className="nav-link link" to="/"  onClick={this.Home}>Home</Link>
                                 </li>
                                 <li className= {this.state.OurService } >
-                                    <p className="nav-link mx-5" >Products</p>
+                                    <Link className="nav-link link" to="/OurService"  onClick={this.OurService}>Our Service</Link>
                                 </li>
                                 <li className= {this.state.ContactUs } >
-                                    <p className="nav-link mx-5" >Contact Us</p>
-                                </li>
-                                <li className= {this.state.ContactUs } >
-                                    <p className="nav-link mx-5" >About Us</p>
+                                    <Link className="nav-link link" to="/ContactUs" onClick={this.ContactUs}>Contact Us</Link>
+
                                 </li>
                             </ul>
 
                         </div>
                     </div>
                 </nav>
-
             </div>
         );
     }
