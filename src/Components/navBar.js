@@ -39,10 +39,10 @@ class NavBar extends Component {
     }
     render() {
         return (
-            <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
                     <div className="container">
-                        <b className=" ">Study Support</b>
+                        <b className=" ">POC Cake.com</b>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                                 aria-label="Toggle navigation">

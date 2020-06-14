@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 class Top extends Component {
     render() {
         return (
             <div className="backgroundTop">
-                <div className="container p-2">
+                <div className="container p-1">
                     <div className="row justify-content-between">
                         <div className="col-4">
                             <div className="form-check form-check-inline">
