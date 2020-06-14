@@ -59,8 +59,13 @@ class NavBar extends Component {
                                     <Link className="nav-link link" to="/"  onClick={this.Home}>Home</Link>
                                 </li>
                                 <li className= {this.state.OurService } >
-                                    <Link className="nav-link link" to="/OurService"  onClick={this.OurService}>Our Service</Link>
+                                    <Link className="nav-link link" to="/OurService"  onClick={this.OurService}>Product</Link>
                                 </li>
+                                <li className= {this.state.ContactUs } >
+                                    <Link className="nav-link link" to="/ContactUs" onClick={this.ContactUs}>About Us</Link>
+
+                                </li>
+
                                 <li className= {this.state.ContactUs } >
                                     <Link className="nav-link link" to="/ContactUs" onClick={this.ContactUs}>Contact Us</Link>
 
