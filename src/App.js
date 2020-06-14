@@ -4,12 +4,13 @@ import './App.css';
 import Top from "./Components/Top";
 import NavBar from "./Components/navBar";
 import Home from "./Components/Home";
-
+import Slideshow from "./Components/slideshow";
 function App() {
   return (
     <div>
         <Top/>
         <NavBar/>
+        <Slideshow/>
         <Router>
 
 

@@ -18,18 +18,36 @@ code {
 
 @media screen and (orientation: portrait) {
 .mobleNu {
-
+    display: none;
+    background-color: #282c34;
 }
-.mobleNu:hover {
-      display: none;
-      background-color: #282c34;
- }
+.navBar {
+  display: block;
+}
+.clr {
+  background-color: lavender;
+}
 }
 
 /* For landscape, we want the tool bar stick on the left */
 
 @media screen and (orientation: landscape) {
+  .navBar {
+    display: none;
+  }
+  .App1 {
+
+    margin: 0 auto;
+
+  }
+  .clr {
+    margin-top: 20px;
+  }
+  .rcorners1 {
+    border-radius: 10px;
+    border: 1px solid #ad2152;
 
 
+  }
 
 }
