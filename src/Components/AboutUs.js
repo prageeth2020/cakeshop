@@ -22,21 +22,21 @@ class AboutUs extends Component {
                                 <div className="welcome_docmed_info">
                                     <h2 className="contactDetails1">Welcome to POC Cake.com</h2>
                                     <h3 className="contactDetails">Best Solution for <br/>
-                                        Your Birthdays, Parties & Wedding Cakes</h3> <br/>
-                                    <p className="para1">We are a team of frelancers gathered to do your Project well. Team is always
+                                        Your Birthdays, Parties, Weddings & Events</h3> <br/>
+                                    <p className="para1">&nbsp;&nbsp;We are a team of frelancers gathered to do your Project well. Team is always
                                         available to response your request within 2 to 3 hours.
                                         We will contact you immedietly.</p>
                                     <ul>
-                                        <li><i className="flaticon-right"></i> 24 * 7 Availability
-                                        </li>
-                                        <li><i className="flaticon-right"></i> Deadline Guaranteed
-                                        </li>
-                                        <li><i className="flaticon-right"></i> No Plagiarism
-                                        </li>
-                                        <li><i className="flaticon-right"></i> Privacy Guaranteed
-                                        </li>
+                                        <li className="fa fa-birthday-cake">  Birthday Cakes
+                                        </li><br/>
+                                        <li className="fa fa-birthday-cake">  Wedding Cakes
+                                        </li><br/>
+                                        <li className="fa fa-birthday-cake">  Anniversary Cakes
+                                        </li><br/>
+                                        <li className="fa fa-birthday-cake">  Party Items
+                                        </li><br/><br/>
                                     </ul>
-                                    <a href="#" className="boxed-btn3-white-2">Learn More</a>
+                                    <a href="#" className="boxed-btn">Find More</a>
                                 </div>
                             </div>
                         </div>
