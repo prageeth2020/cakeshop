@@ -34,7 +34,6 @@ class NewArrival extends Component {
 
                             </div>
 
-
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={require('./Images/img1.jpg')} alt="Card image cap"/>

@@ -62,11 +62,12 @@ class NavBar extends Component {
                                     <a className="nav-link nav-item dropdown-toggle" data-toggle="dropdown" href="#"
                                        role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#">Action</a>
-                                        <a className="dropdown-item" href="#">Another action</a>
-                                        <a className="dropdown-item" href="#">Something else here</a>
-                                        <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="#">Separated link</a>
+                                        <a className="dropdown-item" href="#">Cakes</a>
+                                        <a className="dropdown-item" href="#">Cup Cakes</a>
+                                        <a className="dropdown-item" href="#">Gataeux</a>
+                                        <a className="dropdown-item" href="#">Chees Cakes</a>
+                                        <a className="dropdown-item" href="#">Chill Chees Cake</a>
+                                        <a className="dropdown-item" href="#">Brownies</a>
                                     </div>
                                 </li>
                                 <li className= {this.state.AboutUs } >
