@@ -9,6 +9,8 @@ import Slideshow from "./Components/slideshow";
 import ContactUs from "./Components/ContactUs";
 import AboutUs from "./Components/AboutUs";
 import Footer from "./Components/Footer";
+import NewArrival from "./Components/newArrival";
+
 function App() {
   return (
     <div>
@@ -24,7 +26,9 @@ function App() {
             <Route exact path="/ContactUs" component={ContactUs} />
         </Router>
 
+        <NewArrival/>
         <Footer/>
+
     </div>
   );
 }

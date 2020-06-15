@@ -5,9 +5,9 @@ class Footer extends Component {
         return (
             <div>
 
-                <footer class="page-footer font-small unique-color-dark">
+                <footer class="page-footer font-small unique-color-dark footerbackground" >
 
-                    <div class="container text-center text-md-left mt-5">
+                    <div class="container text-center text-md-left mt-5 p-3">
 
 
                         <div class="row mt-3">
@@ -87,8 +87,8 @@ class Footer extends Component {
 
                     </div>
 
-                    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                    <div class="footer-copyright text-center py-3 bg-dark text-white">
+                        © 2020 Copyright:SoftTechPLC
                     </div>
 
 

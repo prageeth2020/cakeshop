@@ -5,8 +5,8 @@ class Top extends Component {
     render() {
         return (
             <div className="backgroundTop">
-                <div className="container p-1">
-                    <div className="row justify-content-between">
+                <div className="container ">
+                    <div className="row justify-content-between p-1">
                         <div className="col-4">
                             <div className="form-check form-check-inline">
                                 <a href="" className=" "><i className="fab fa-facebook-f text-primary "></i></a>
