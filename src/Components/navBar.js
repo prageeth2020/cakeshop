@@ -7,8 +7,8 @@ class NavBar extends Component {
 
 
         this.state = {
-            home : "nnav-item active mx-2",
-            OurService : "nav-item  mx-2",
+            home : "nav-item active mx-2",
+            AboutUs : "nav-item  mx-2",
             ContactUs : "nav-item  mx-2"
 
         };
@@ -18,22 +18,22 @@ class NavBar extends Component {
 
     Home = () => {
         this.setState({
-            home : "nnav-item active mx-2",
-            OurService : "nav-item  mx-2",
+            home : "nav-item active mx-2",
+            AboutUs : "nav-item  mx-2",
             ContactUs : "nav-item  mx-2"
         })
     }
-    OurService = () => {
+    AboutUs = () => {
         this.setState({
             home : "nav-item  mx-2",
-            OurService : "nav-item active mx-2",
+            AboutUs : "nav-item active mx-2",
             ContactUs : "nav-item  mx-2"
         })
     }
     ContactUs = () => {
         this.setState({
             home : "nav-item  mx-2",
-            OurService : "nav-item  mx-2",
+            AboutUs : "nav-item  mx-2",
             ContactUs : "nav-item active mx-2"
         })
     }
@@ -58,11 +58,19 @@ class NavBar extends Component {
                                 <li className= {this.state.home } >
                                     <Link className="nav-link link" to="/"  onClick={this.Home}>Home</Link>
                                 </li>
-                                <li className= {this.state.OurService } >
-                                    <Link className="nav-link link" to="/Product"  onClick={this.OurService}>Product</Link>
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link nav-item dropdown-toggle" data-toggle="dropdown" href="#"
+                                       role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div className="dropdown-menu">
+                                        <a className="dropdown-item" href="#">Action</a>
+                                        <a className="dropdown-item" href="#">Another action</a>
+                                        <a className="dropdown-item" href="#">Something else here</a>
+                                        <div className="dropdown-divider"></div>
+                                        <a className="dropdown-item" href="#">Separated link</a>
+                                    </div>
                                 </li>
-                                <li className= {this.state.ContactUs } >
-                                    <Link className="nav-link link" to="/AboutUs" onClick={this.ContactUs}>About Us</Link>
+                                <li className= {this.state.AboutUs } >
+                                    <Link className="nav-link link" to="/AboutUs" onClick={this.AboutUs}>About Us</Link>
 
                                 </li>
 

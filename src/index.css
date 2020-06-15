@@ -17,14 +17,11 @@ code {
 .footerbackground {
   background-color: 	#F5F5F5;
 }
-.circle {
-  width: 140px;
-  height: 140px;
-  background: red;
-  -moz-border-radius: 70px;
-  -webkit-border-radius: 70px;
-  border-radius: 70px;
-}
+div i.fa { display: none; }
+div img { display: block; }
+
+div.show-icon i.fa { display: inline-block; }
+div.show-icon img { display: none; }
 .img1 {
   /* Location of the image */
   background-image: url("./Components/Images/img1.jpg");
