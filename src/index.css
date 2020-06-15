@@ -109,9 +109,9 @@ code {
   /* IE6-9 */
   color: #fff;
   display: inline-block;
-  padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  padding: 10px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
   font-weight: 500;
   border: 0;
   border: 1px solid transparent;
@@ -150,13 +150,13 @@ code {
 }
 
 .contactD{
-  font-family: monospace;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   color: blue;
 }
 
 .contactDetails1{
-  font-family: monospace;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 36px;
   background: -webkit-linear-gradient(#FE0101, #FEC6F7);
@@ -178,9 +178,9 @@ code {
   /* IE6-9 */
   color: #fff;
   display: inline-block;
-  padding: 12px 24px;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  padding: 8px 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
   font-weight: 500;
   border: 0;
   border: 1px solid transparent;
@@ -200,7 +200,7 @@ code {
 
 /*AboutUs*/
 .para1{
-  font-family: monospace;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 17px;
   color: #FE0579;
@@ -220,9 +220,9 @@ code {
   /* IE6-9 */
   color: #fff;
   display: inline-block;
-  padding: 8px 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  padding: 8px 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
   font-weight: 500;
   border: 0;
   border: 1px solid transparent;
@@ -245,6 +245,29 @@ code {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/**Footer*/
+.fa-envelope{
+  color: red;
+}
+
+.fa-print{
+  color: red;
+}
+
+.footer{
+  font-family: monospace;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.pfooter{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+
 
 @media screen and (orientation: portrait) {
 .mobleNu {

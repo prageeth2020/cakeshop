@@ -36,7 +36,7 @@ class AboutUs extends Component {
                                         <li className="fa fa-birthday-cake">  Party Items
                                         </li><br/><br/>
                                     </ul>
-                                    <a href="#" className="boxed-btn">Find More</a>
+                                    <a href="#" className="boxed-btn">Find More >></a>
                                 </div>
                             </div>
                         </div>

@@ -15,7 +15,7 @@ class Slideshow extends Component {
                                 <hr className="my-4"/>
                                     <p>It uses utility classes for typography and spacing to space content out within
                                         <br/>the larger container.</p>
-                                    <a className="btn btn-primary btn-lg boxed-btn31" href="#" role="button">Learn more</a>
+                                    <a className="btn btn-primary btn-lg boxed-btn31" href="#" role="button">Learn more >></a>
                             </div>
                         </div>
                         <div className="carousel-item">
@@ -26,7 +26,7 @@ class Slideshow extends Component {
                                 <hr className="my-4"/>
                                     <p>It uses utility classes for typography and spacing to space content out within
                                         <br/>  the larger container.</p>
-                                    <a className="btn btn-primary btn-lg boxed-btn31" href="#" role="button">Learn more</a>
+                                    <a className="btn btn-primary btn-lg boxed-btn31" href="#" role="button">Learn more >></a>
                             </div>
                         </div>
                         <div className="carousel-item">
@@ -37,7 +37,7 @@ class Slideshow extends Component {
                                 <hr className="my-4"/>
                                     <p>It uses utility classes for typography and spacing to space content out within
                                         <br/> the larger container.</p>
-                                    <a className="btn btn-primary btn-lg boxed-btn31" href="#" role="button">Learn more</a>
+                                    <a className="btn btn-primary btn-lg boxed-btn31" href="#" role="button">Learn more >></a>
                             </div>
                         </div>
                     </div>
