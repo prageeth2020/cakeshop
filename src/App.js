@@ -18,13 +18,12 @@ function App() {
         <Router>
 
             <NavBar/>
-            <Slideshow/>
+
             <Route exact path="/" component={Home} />
-
-
+            <Route exact path="/AboutUs" component={AboutUs} />
+            <Route exact path="/ContactUs" component={ContactUs} />
         </Router>
-        <ContactUs/>
-        <AboutUs/>
+
 
     </div>
   );
