@@ -5,7 +5,7 @@ class NewArrival extends Component {
     render() {
         return (
             <div className="">
-                <h2 className="text-center nArrival">N E W  - A R R I V A L</h2>
+                <h2 className="text-center ">N E W  - A R R I V A L</h2>
                 <div className="container my-4">
                     <div className="card-deck">
                         <div className="card">
