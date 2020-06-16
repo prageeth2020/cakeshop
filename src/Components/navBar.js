@@ -58,7 +58,7 @@ class NavBar extends Component {
                                 <li className= {this.state.home } >
                                     <Link className="nav-link link" to="/"  onClick={this.Home}>Home</Link>
                                 </li>
-                                <li className="nav-item dropdown">
+                                <li className="nav-item mx-2 dropdown">
                                     <a className="nav-link nav-item dropdown-toggle" data-toggle="dropdown" href="#"
                                        role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                     <div className="dropdown-menu">
