@@ -245,12 +245,8 @@ div.show-icon img { display: none; }
 
 
 /**Footer*/
-.fa-envelope{
-  color: red;
-}
-
-.fa-print{
-  color: red;
+.fas{
+  color: black;
 }
 
 .footer{
@@ -265,6 +261,28 @@ div.show-icon img { display: none; }
 }
 
 
+/*NewArrivals*/
+.nArrival{
+  font-family: monospace;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#010101, #5F6060);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-title{
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-text{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #393939;
+}
 
 @media screen and (orientation: portrait) {
 .mobleNu {
