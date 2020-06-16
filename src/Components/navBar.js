@@ -79,6 +79,13 @@ class NavBar extends Component {
                                     <Link className="nav-link link" to="/ContactUs" onClick={this.ContactUs}>Contact Us</Link>
 
                                 </li>
+                                <li className= {this.state.ContactUs } >
+
+                                    <button className="btn  nav-link link" type="button">
+                                        <i className="fas fa-shopping-cart"></i> <span className="badge">0</span>
+                                    </button>
+
+                                </li>
 
                             </ul>
 
