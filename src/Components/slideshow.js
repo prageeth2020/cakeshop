@@ -9,7 +9,7 @@ class Slideshow extends Component {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="jumbotron img1">
-                                <h1 className="display-4">Hello, world!</h1>
+                                <h1 className="display-4">Our Products</h1>
                                 <p className="lead">This is a simple hero unit, a simple jumbotron-style component for
                                     <br/>calling extra attention to featured content or information.</p>
                                 <hr className="my-4"/>
@@ -20,7 +20,7 @@ class Slideshow extends Component {
                         </div>
                         <div className="carousel-item">
                             <div className="jumbotron img2">
-                                <h1 className="display-4">Hello, world!</h1>
+                                <h1 className="display-4">About Us</h1>
                                 <p className="lead">This is a simple hero unit, a simple jumbotron-style component for
                                     <br/>calling extra attention to featured content or information.</p>
                                 <hr className="my-4"/>
@@ -31,7 +31,7 @@ class Slideshow extends Component {
                         </div>
                         <div className="carousel-item">
                             <div className="jumbotron img3">
-                                <h1 className="display-4">Hello, world!</h1>
+                                <h1 className="display-4">Contact Us</h1>
                                 <p className="lead">This is a simple hero unit, a simple jumbotron-style component for
                                     <br/>calling extra attention to featured content or information.</p>
                                 <hr className="my-4"/>

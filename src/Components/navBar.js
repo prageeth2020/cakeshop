@@ -51,8 +51,9 @@ class NavBar extends Component {
         })
     }
     render() {
+
         return (
-            <div className="">
+            <div className="" id="myHeader">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
                     <div className="container">
                         <b className=" ">POC Cake.com</b>
@@ -94,9 +95,9 @@ class NavBar extends Component {
                                 </li>
                                 <li className= {this.state.ContactUs } >
 
-                                    <button className="btn  nav-link link" type="button">
+                                    <Link className="btn  nav-link link" to="/Cart" type="button">
                                         <i className="fas fa-shopping-cart"></i> <span className="badge">{this.state.cartItems}</span>
-                                    </button>
+                                    </Link>
 
                                 </li>
 
@@ -107,6 +108,8 @@ class NavBar extends Component {
                 </nav>
             </div>
         );
+
+
     }
 }
 

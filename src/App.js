@@ -9,7 +9,7 @@ import Slideshow from "./Components/slideshow";
 import ContactUs from "./Components/ContactUs";
 import AboutUs from "./Components/AboutUs";
 import Footer from "./Components/Footer";
-
+import Cart from "./Components/cart";
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/AboutUs" component={AboutUs} />
             <Route exact path="/ContactUs" component={ContactUs} />
+            <Route exact path="/Cart" component={Cart} />
         </Router>
 
 

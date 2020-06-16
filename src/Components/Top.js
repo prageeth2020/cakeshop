@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 class Top extends Component {
     render() {
         return (
-            <div className="backgroundTop">
+            <div className="backgroundTop ">
                 <div className="container ">
                     <div className="row justify-content-between p-1">
                         <div className="col-4">
