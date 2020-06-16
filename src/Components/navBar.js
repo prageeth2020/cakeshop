@@ -1,7 +1,19 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import LocalStorage from "../localStorage/localStorage";
 
 class NavBar extends Component {
+    componentDidMount() {
+        this.interval = setInterval(() =>
+            this.setState({  cartItems : LocalStorage.getCount()}), 1000);
+
+
+    }
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
+
+
     constructor() {
         super();
 
@@ -9,7 +21,8 @@ class NavBar extends Component {
         this.state = {
             home : "nav-item active mx-2",
             AboutUs : "nav-item  mx-2",
-            ContactUs : "nav-item  mx-2"
+            ContactUs : "nav-item  mx-2",
+            cartItems : 0
 
         };
 
@@ -82,7 +95,7 @@ class NavBar extends Component {
                                 <li className= {this.state.ContactUs } >
 
                                     <button className="btn  nav-link link" type="button">
-                                        <i className="fas fa-shopping-cart"></i> <span className="badge">0</span>
+                                        <i className="fas fa-shopping-cart"></i> <span className="badge">{this.state.cartItems}</span>
                                     </button>
 
                                 </li>

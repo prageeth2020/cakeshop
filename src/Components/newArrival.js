@@ -1,7 +1,30 @@
 import React, {Component} from 'react';
 import LocalStorage from "../localStorage/localStorage";
-
+import NavBar from "./navBar";
 class NewArrival extends Component {
+
+
+    AddToCart = (event) => {
+        console.log("Caleed");
+        var newObj = {Name : "ghgh"};
+        var CurrentObj = [];
+        for(var i = 0 ; i < LocalStorage.checkLoggedInUser().length ; i++) {
+            CurrentObj.push(LocalStorage.checkLoggedInUser()[i]);
+        }
+     //   CurrentObj.push(LocalStorage.checkLoggedInUser());
+       //
+        CurrentObj.push(newObj);
+
+        console.log(CurrentObj);
+        localStorage.setItem("POCCakecom", JSON.stringify(CurrentObj));
+
+        //localStorage.removeItem("POCCakecom");
+        //
+        console.log(LocalStorage.checkLoggedInUser().length);
+
+
+    }
+
     render() {
         return (
             <div className="">
@@ -21,11 +44,11 @@ class NewArrival extends Component {
                                 <a className="btn-floating btn-action ml-auto mr-4 mdb-color lighten-3">
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
-                                            <a className="nav-link p-0 " href="#">
-                                                <button type="button" className="btn btn-danger px-3"><i
-                                                    className="fas fa-cart-plus text-white mx-2" aria-hidden="true"></i>Add To Cart</button>
 
-                                            </a>
+                                                <button type="button" className="btn btn-danger px-3" onClick={this.AddToCart} ><i
+                                                    className="fas fa-cart-plus text-white mx-2" aria-hidden="true" ></i>Add To Cart</button>
+
+
                                         </li>
                                     </ul>
                                 </a>
