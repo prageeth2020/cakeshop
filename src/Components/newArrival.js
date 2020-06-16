@@ -4,7 +4,7 @@ class NewArrival extends Component {
     render() {
         return (
             <div className="">
-                <h2 className="text-center">N E W  - A R R I V A L</h2>
+                <h2 className="text-center nArrival">N E W  - A R R I V A L</h2>
                 <div className="container my-4">
                     <div className="card-deck">
                         <div className="card">
@@ -21,7 +21,7 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/cart.png')}
+                                                <img src={require('./Images/basket1.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
                                             </a>
@@ -45,7 +45,7 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/cart.png')}
+                                                <img src={require('./Images/basket1.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
 
@@ -74,7 +74,7 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/cart.png')}
+                                                <img src={require('./Images/basket1.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
 
@@ -105,7 +105,7 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/cart.png')}
+                                                <img src={require('./Images/basket1.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
 
@@ -133,7 +133,7 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/cart.png')}
+                                                <img src={require('./Images/basket1.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
 
@@ -162,7 +162,7 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/cart.png')}
+                                                <img src={require('./Images/basket1.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
 
