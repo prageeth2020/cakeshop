@@ -24,14 +24,10 @@ class NewArrival extends Component {
                                                 <img src={require('./Images/cart.png')}
                                                      className="rounded-circle z-depth-0 border border-dark "
                                                      alt="avatar image" height="35"/>
-
                                             </a>
                                         </li>
                                     </ul>
-
-
                                 </a>
-
                             </div>
 
                         </div>

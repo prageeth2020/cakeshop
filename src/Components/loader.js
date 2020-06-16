@@ -15,7 +15,7 @@ class Loader extends Component {
                 </React.StrictMode>,
                 document.getElementById('root')
             );
-        }, 5000);
+        }, 3000);
     }
 
     componentWillUnmount(){

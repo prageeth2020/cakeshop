@@ -79,6 +79,7 @@ class NavBar extends Component {
                                     <Link className="nav-link link" to="/ContactUs" onClick={this.ContactUs}>Contact Us</Link>
 
                                 </li>
+
                             </ul>
 
                         </div>
