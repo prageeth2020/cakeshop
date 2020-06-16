@@ -21,9 +21,9 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/basket1.png')}
-                                                     className="rounded-circle z-depth-0 border border-dark "
-                                                     alt="avatar image" height="35"/>
+                                                <button type="button" className="btn btn-danger px-3"><i
+                                                    className="fas fa-cart-plus text-white mx-2" aria-hidden="true"></i>Add To Cart</button>
+
                                             </a>
                                         </li>
                                     </ul>
@@ -45,9 +45,8 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/basket1.png')}
-                                                     className="rounded-circle z-depth-0 border border-dark "
-                                                     alt="avatar image" height="35"/>
+                                                <button type="button" className="btn btn-danger px-3"><i
+                                                    className="fas fa-cart-plus text-white mx-2" aria-hidden="true"></i>Add To Cart</button>
 
                                             </a>
                                         </li>
@@ -74,9 +73,8 @@ class NewArrival extends Component {
                                     <ul className="navbar-nav ml-auto nav-flex-icons">
                                         <li className="nav-item avatar">
                                             <a className="nav-link p-0 " href="#">
-                                                <img src={require('./Images/basket1.png')}
-                                                     className="rounded-circle z-depth-0 border border-dark "
-                                                     alt="avatar image" height="35"/>
+                                                <button type="button" className="btn btn-danger px-3"><i
+                                                    className="fas fa-cart-plus text-white mx-2" aria-hidden="true"></i>Add To Cart</button>
 
                                             </a>
                                         </li>
