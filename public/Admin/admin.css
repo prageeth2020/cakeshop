@@ -34,7 +34,9 @@
     display: none;
     opacity: 0.0;
 }
-
+.heightMax {
+    min-height: 100vh;
+}
 .frm {
     width: 80%;
     margin : 0 0 ;

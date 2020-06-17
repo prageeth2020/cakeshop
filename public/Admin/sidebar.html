@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div class="row p-3">
+        <div class="col-md-6 ">
+            <div class="form-check ">
+                <h1>{{clock | date:'HH:mm:ss'}}</h1>
+                <h6 class="form-check">{{displayTodayDate}}</h6>
+            </div>
+
+        </div>
+    </div>
+    <hr/>
+    <ul class="nav nav-tabs card-header-tabs" >
+        <li class="nav-item col-md-12">
+            <a class={{clz1}} style="cursor: pointer;" ng-click="changeIndex(0)">Home</a>
+        </li>
+        <li class="nav-item col-md-12">
+            <a class={{clz2}} style="cursor: pointer;" ng-click="changeIndex(1)">Store Manager Details</a>
+        </li>
+
+    </ul>
+</body>
+</html>

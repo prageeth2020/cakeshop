@@ -37,48 +37,39 @@
 </head>
 
 <body>
+    <div class="row no-gutters heightMax">
+        <div class="col-sm-6 col-md-2 bg-light">
+            <div  ng-include="'sidebar.html'"></div>
+        </div>
+        <div class="col-6 col-md-10">
+            <div class="col-6 col-md-4">
 
-
-
-    <!--Top -->
-    <div class="border">
-        <div class="backgroundTop ">
-            <div class="container ">
-                <div class="row justify-content-between p-1">
-                    <div class="col-4">
-                        <div class="form-check form-check-inline">
-                            <a href="" class=" "><i class="fab fa-facebook-f text-primary "></i></a>
-                            <a href="" class="mx-5"><i class="fas fa-envelope text-danger"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-4 text-right">
-                        <div class="form-check form-check-inline">
-                            <a href="" class=" "><i class="fas fa-phone-alt text-dark "></i></a>
-                            <label class="form-check-label mobleNu mx-2" >+94 77 755 6955</label>
+            </div>
+            <div class="border p-3">
+                <div class="">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col">
+                            fgnmfgj
                         </div>
                     </div>
                 </div>
-
-
-
+            </div>
+            <div ng-view></div>
+            <div class="content">
+                <div ng-if="pageIndex == 0" ng-include="'Home.html'"></div>
+                <div ng-if="pageIndex == 1" ng-include="'storeMangr.html'"></div>
 
             </div>
 
         </div>
     </div>
 
-    <!--Body-->
-    <div class="content">
-        <div ng-if="pageIndex == 0" ng-include="'category.html'"></div>
-        <div ng-if="pageIndex == 1" ng-include="'storeMangr.html'"></div>
 
-    </div>
 
-    <div ng-view></div>
-    <!--Fotter
-        <div class="footer">
-            <div class="p-3 mb-2 backColorFotter text-center  text-white"> | Copyright ©2020 All rights reserved @ SLIIT - MALABE | </div>
-        </div>-->
+
 
     <script src="./admin.js"></script>
 </body>
