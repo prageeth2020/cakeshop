@@ -10,6 +10,7 @@ import ContactUs from "./Components/ContactUs";
 import AboutUs from "./Components/AboutUs";
 import Footer from "./Components/Footer";
 import Cart from "./Components/cart";
+import Admin from "./Components/admin";
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/AboutUs" component={AboutUs} />
             <Route exact path="/ContactUs" component={ContactUs} />
             <Route exact path="/Cart" component={Cart} />
+            <Route exact path="/Admin" component={Admin} />
         </Router>
 
 
