@@ -10,7 +10,6 @@ import ContactUs from "./Components/ContactUs";
 import AboutUs from "./Components/AboutUs";
 import Footer from "./Components/Footer";
 import Cart from "./Components/cart";
-
 function App() {
   return (
     <div>

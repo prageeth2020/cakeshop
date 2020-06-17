@@ -8,6 +8,9 @@ const app = express(); // create express app
 app.use(express.static(path.join(__dirname, "..", "public")));
 app.use(express.static("public"));
 
+app.get('/admin', (req, res, next) => {
+    res.sendFile(__dirname + 'public/Admin/index.html');
+});
 
 
 // start express server on port 5000
