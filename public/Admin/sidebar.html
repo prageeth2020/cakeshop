@@ -6,22 +6,24 @@
 </head>
 <body>
 
-    <div class="row p-3">
-        <div class="col-md-6 ">
-            <div class="form-check ">
-                <h1>{{clock | date:'HH:mm:ss'}}</h1>
-                <h6 class="form-check">{{displayTodayDate}}</h6>
-            </div>
 
-        </div>
-    </div>
+    <ul class="nav nav-tabs card-header-tabs text-center " >
+        <li class="nav-item col-md-12">
+            <h1>{{clock | date:'HH:mm:ss'}}</h1>
+            <h6 class="form-check">{{displayTodayDate}}</h6>
+        </li>
+    </ul>
+
     <hr/>
     <ul class="nav nav-tabs card-header-tabs" >
         <li class="nav-item col-md-12">
-            <a class={{clz1}} style="cursor: pointer;" ng-click="changeIndex(0)">Home</a>
+            <a class={{clz1}} style="cursor: pointer;" ng-click="changeIndex(0)">Dashboard</a>
         </li>
         <li class="nav-item col-md-12">
-            <a class={{clz2}} style="cursor: pointer;" ng-click="changeIndex(1)">Store Manager Details</a>
+            <a class={{clz2}} style="cursor: pointer;" ng-click="changeIndex(1)">Orders</a>
+        </li>
+        <li class="nav-item col-md-12">
+            <a class={{clz2}} style="cursor: pointer;" ng-click="changeIndex(0)">Products</a>
         </li>
 
     </ul>
